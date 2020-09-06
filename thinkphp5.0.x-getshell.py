@@ -71,4 +71,4 @@ if __name__ == "__main__":
             else:
                 print("[info]\t"+"指定的"+txt+"文件不存在!") 
     else:
-        print("Example:\n\tscan:\n\tpy -3 thinkphp5.0.x-getshell.py --host url --action scan\n\tpy -3 thinkphp5.0.x-getshell.py --txt filename.txt --action scan\n\n\tgetshell:\n\tpy -3 thinkphp5.0.x-getshell.py --host url --action getshell --filename filename --content content\n\tpy -3 thinkphp5.0.x-getshell.py --txt filename.txt --action getshell --filename filename --content content")
+        print("Example:\n\tscan:\n\tpy -3 thinkphp5.0.x-getshell.py --host url --action scan\n\tpy -3 thinkphp5.0.x-getshell.py --txt filename.txt --action scan\n\n\tgetshell:\n\tpy -3 thinkphp5.0.x-getshell.py --host url --action getshell --filename filename --content content\n\tpy -3 thinkphp5.0.x-getshell.py --txt filename.txt --action getshell --filename filename --content content\nThe content parameter requires url encoding")
